@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Free Trial | NEXUS FIT</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+    <a href="index.html" class="logo">NEXUS<span>FIT</span></a>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="memberships.html">Memberships</a>
+        <a href="classes.html">Classes</a>
+        <a href="trainers.html">Trainers</a>
+        <a href="facilities.html">Facilities</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="transformations.html">Transformations</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <a href="trial.html" class="nav-button">FREE TRIAL →</a>
+</header>
+
+
+<!-- HERO -->
+
+<section class="trial-hero">
+
+    <div class="trial-hero-overlay"></div>
+
+    <div class="trial-hero-content">
+
+        <div class="eyebrow">NEXUS FIT / FREE TRIAL</div>
+
+        <h1>
+            START YOUR<br>
+            <span>JOURNEY.</span>
+        </h1>
+
+        <p>
+            Your first session starts here. Choose your preferred
+            membership, coach and training session.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- MAIN TRIAL SECTION -->
+
+<section class="trial-section">
+
+    <div class="trial-container">
+
+        <!-- LEFT SIDE -->
+
+        <div class="trial-info">
+
+            <div class="eyebrow">YOUR FIRST SESSION</div>
+
+            <h2>
+                TRAIN WITH<br>
+                <span>PURPOSE.</span>
+            </h2>
+
+            <p class="trial-description">
+                Tell us a little about yourself and what you want
+                to experience at NEXUS FIT. We'll use your selections
+                to prepare your first visit.
+            </p>
+
+
+            <!-- PROCESS -->
+
+            <div class="trial-process">
+
+                <div class="process-item">
+                    <div class="process-number">01</div>
+
+                    <div>
+                        <h3>CHOOSE</h3>
+                        <p>Select your membership and preferred session.</p>
+                    </div>
+                </div>
+
+
+                <div class="process-item">
+                    <div class="process-number">02</div>
+
+                    <div>
+                        <h3>CONNECT</h3>
+                        <p>Choose a coach and tell us when you'd like to visit.</p>
+                    </div>
+                </div>
+
+
+                <div class="process-item">
+                    <div class="process-number">03</div>
+
+                    <div>
+                        <h3>TRAIN</h3>
+                        <p>Visit NEXUS FIT and experience the training environment.</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- PLAN SUMMARY -->
+
+            <div class="trial-summary">
+
+                <div class="summary-label">SELECTED PLAN</div>
+
+                <div class="summary-plan" id="summaryPlan">
+                    FREE TRIAL
+                </div>
+
+                <p id="summaryText">
+                    Choose a membership on the right to continue.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- RIGHT FORM -->
+
+        <div class="trial-form-card">
+
+            <div class="form-header">
+
+                <div class="eyebrow">BOOK YOUR VISIT</div>
+
+                <h2>FREE TRIAL FORM</h2>
+
+                <p>
+                    Complete the form below and we'll prepare
+                    your first visit.
+                </p>
+
+            </div>
+
+
+            <form id="trialForm">
+
+                <!-- NAME -->
+
+                <div class="form-group">
+
+                    <label for="trialName">
+                        FULL NAME
+                    </label>
+
+                    <input
+                        type="text"
+                        id="trialName"
+                        name="name"
+                        placeholder="Enter your full name"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- EMAIL + PHONE -->
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label for="trialEmail">
+                            EMAIL
+                        </label>
+
+                        <input
+                            type="email"
+                            id="trialEmail"
+                            name="email"
+                            placeholder="you@example.com"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="trialPhone">
+                            PHONE
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="trialPhone"
+                            name="phone"
+                            placeholder="+91 XXXXX XXXXX"
+                            required
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <!-- MEMBERSHIP -->
+
+                <div class="form-group">
+
+                    <label for="trialPlan">
+                        MEMBERSHIP
+                    </label>
+
+                    <select id="trialPlan" name="plan" required>
+
+                        <option value="">
+                            Select membership
+                        </option>
+
+                        <option value="starter">
+                            Starter — ₹1,499/month
+                        </option>
+
+                        <option value="performance">
+                            Performance — ₹2,499/month
+                        </option>
+
+                        <option value="elite">
+                            Elite — ₹4,499/month
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <!-- TRAINER -->
+
+                <div class="form-group">
+
+                    <label for="trialTrainer">
+                        PREFERRED TRAINER
+                    </label>
+
+                    <select id="trialTrainer" name="trainer" required>
+
+                        <option value="">
+                            Select trainer
+                        </option>
+
+                        <option value="arjun">
+                            Arjun Mehra — Strength Coach
+                        </option>
+
+                        <option value="riya">
+                            Riya Kapoor — Performance Coach
+                        </option>
+
+                        <option value="kabir">
+                            Kabir Singh — Athletic Performance
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <!-- CLASS -->
+
+                <div class="form-group">
+
+                    <label for="trialClass">
+                        PREFERRED SESSION
+                    </label>
+
+                    <select id="trialClass" name="class" required>
+
+                        <option value="">
+                            Select session
+                        </option>
+
+                        <option value="strength">
+                            Strength Lab
+                        </option>
+
+                        <option value="hiit">
+                            HIIT Fusion
+                        </option>
+
+                        <option value="athlete">
+                            Functional Athlete
+                        </option>
+
+                        <option value="recovery">
+                            Recovery Flow
+                        </option>
+
+                        <option value="community">
+                            Nexus Team Session
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <!-- DATE + DAY -->
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label for="trialDay">
+                            PREFERRED DAY
+                        </label>
+
+                        <select id="trialDay" name="day" required>
+
+                            <option value="">
+                                Select day
+                            </option>
+
+                            <option value="monday">Monday</option>
+                            <option value="tuesday">Tuesday</option>
+                            <option value="wednesday">Wednesday</option>
+                            <option value="thursday">Thursday</option>
+                            <option value="friday">Friday</option>
+                            <option value="saturday">Saturday</option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="trialDate">
+                            PREFERRED DATE
+                        </label>
+
+                        <input
+                            type="date"
+                            id="trialDate"
+                            name="date"
+                            required
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <!-- TIME -->
+
+                <div class="form-group">
+
+                    <label for="trialTime">
+                        PREFERRED TIME
+                    </label>
+
+                    <select id="trialTime" name="time" required>
+
+                        <option value="">
+                            Select time
+                        </option>
+
+                        <option value="06:00 AM">
+                            06:00 AM
+                        </option>
+
+                        <option value="06:30 AM">
+                            06:30 AM
+                        </option>
+
+                        <option value="07:00 AM">
+                            07:00 AM
+                        </option>
+
+                        <option value="07:30 AM">
+                            07:30 AM
+                        </option>
+
+                        <option value="09:00 AM">
+                            09:00 AM
+                        </option>
+
+                        <option value="10:30 AM">
+                            10:30 AM
+                        </option>
+
+                        <option value="06:00 PM">
+                            06:00 PM
+                        </option>
+
+                        <option value="06:30 PM">
+                            06:30 PM
+                        </option>
+
+                        <option value="07:00 PM">
+                            07:00 PM
+                        </option>
+
+                        <option value="07:30 PM">
+                            07:30 PM
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <!-- EXPERIENCE -->
+
+                <div class="form-group">
+
+                    <label for="trialExperience">
+                        EXPERIENCE LEVEL
+                    </label>
+
+                    <select id="trialExperience" name="experience" required>
+
+                        <option value="">
+                            Select experience
+                        </option>
+
+                        <option value="beginner">
+                            Beginner
+                        </option>
+
+                        <option value="intermediate">
+                            Intermediate
+                        </option>
+
+                        <option value="advanced">
+                            Advanced
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <!-- MESSAGE -->
+
+                <div class="form-group">
+
+                    <label for="trialMessage">
+                        MESSAGE / TRAINING INTEREST
+                    </label>
+
+                    <textarea
+                        id="trialMessage"
+                        name="message"
+                        rows="4"
+                        placeholder="Tell us what you'd like to focus on..."
+                    ></textarea>
+
+                </div>
+
+
+                <!-- TERMS -->
+
+                <label class="trial-checkbox">
+
+                    <input
+                        type="checkbox"
+                        id="trialTerms"
+                        required
+                    >
+
+                    <span>
+                        I confirm that the information provided is correct
+                        and I agree to be contacted regarding my trial visit.
+                    </span>
+
+                </label>
+
+
+                <!-- SUBMIT -->
+
+                <button
+                    type="submit"
+                    class="trial-submit"
+                >
+                    BOOK MY FREE TRIAL →
+                </button>
+
+
+                <p class="form-note">
+                    No payment is processed through this demo form.
+                </p>
+
+            </form>
+
+
+            <!-- SUCCESS -->
+
+            <div class="trial-success" id="trialSuccess">
+
+                <div class="success-icon">✓</div>
+
+                <div class="eyebrow">REQUEST RECEIVED</div>
+
+                <h2>YOU'RE<br><span>IN.</span></h2>
+
+                <p id="successMessage">
+                    Your free trial request has been received.
+                </p>
+
+                <div class="success-actions">
+
+                    <a
+                        href="#"
+                        id="whatsappTrial"
+                        class="trial-whatsapp"
+                        target="_blank"
+                    >
+                        CONTINUE ON WHATSAPP →
+                    </a>
+
+                    <button
+                        type="button"
+                        id="trialReset"
+                        class="reset-trial"
+                    >
+                        START AGAIN
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CTA -->
+
+<section class="trial-cta">
+
+    <div class="trial-cta-content">
+
+        <div class="eyebrow">NEXUS FIT / DELHI</div>
+
+        <h2>
+            YOUR NEXT<br>
+            SESSION <span>STARTS NOW.</span>
+        </h2>
+
+        <p>
+            No pressure. No complicated process.
+            Just show up ready to train.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    <div class="footer-logo">
+        NEXUS<span>FIT</span>
+    </div>
+
+    <p>
+        © 2026 NEXUS FIT — DELHI
+    </p>
+
+    <div class="footer-links">
+
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="trial.html">Join</a>
+
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

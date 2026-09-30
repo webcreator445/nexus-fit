@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Member Dashboard | NEXUS FIT</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <a href="index.html" class="logo">
+        NEXUS<span>FIT</span>
+    </a>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="classes.html">Classes</a>
+        <a href="trainers.html">Trainers</a>
+        <a href="facilities.html">Facilities</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <a href="trial.html" class="nav-button">
+        BOOK SESSION →
+    </a>
+
+</header>
+
+
+<!-- DASHBOARD -->
+
+<main class="dashboard-page">
+
+    <!-- TOP -->
+
+    <section class="dashboard-top">
+
+        <div>
+
+            <div class="eyebrow">
+                MEMBER AREA / DASHBOARD
+            </div>
+
+            <h1>
+                WELCOME BACK,<br>
+                <span>ALEX.</span>
+            </h1>
+
+            <p>
+                Stay consistent. Keep progressing.
+                Your next session is already waiting.
+            </p>
+
+        </div>
+
+
+        <div class="member-badge">
+
+            <div class="badge-label">
+                MEMBERSHIP
+            </div>
+
+            <div class="badge-plan">
+                PERFORMANCE
+            </div>
+
+            <div class="badge-status">
+                ● ACTIVE
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- QUICK STATS -->
+
+    <section class="dashboard-stats">
+
+        <div class="dashboard-stat">
+
+            <span class="stat-label">
+                MEMBERSHIP
+            </span>
+
+            <strong>
+                PERFORMANCE
+            </strong>
+
+            <small>
+                Renews 24 OCT 2026
+            </small>
+
+        </div>
+
+
+        <div class="dashboard-stat">
+
+            <span class="stat-label">
+                TRAINING THIS WEEK
+            </span>
+
+            <strong>
+                4 / 5
+            </strong>
+
+            <small>
+                Sessions completed
+            </small>
+
+        </div>
+
+
+        <div class="dashboard-stat">
+
+            <span class="stat-label">
+                CURRENT STREAK
+            </span>
+
+            <strong>
+                18 DAYS
+            </strong>
+
+            <small>
+                Keep it going
+            </small>
+
+        </div>
+
+
+        <div class="dashboard-stat">
+
+            <span class="stat-label">
+                NEXT SESSION
+            </span>
+
+            <strong>
+                06:00 PM
+            </strong>
+
+            <small>
+                Today
+            </small>
+
+        </div>
+
+    </section>
+
+
+    <!-- MAIN GRID -->
+
+    <section class="dashboard-grid">
+
+
+        <!-- NEXT SESSION -->
+
+        <div class="dashboard-card next-session">
+
+            <div class="card-heading">
+
+                <div>
+                    <div class="eyebrow">
+                        NEXT SESSION
+                    </div>
+
+                    <h2>
+                        STRENGTH LAB
+                    </h2>
+                </div>
+
+                <span class="session-status">
+                    CONFIRMED
+                </span>
+
+            </div>
+
+
+            <div class="session-main">
+
+                <div class="session-date">
+                    <strong>30</strong>
+                    <span>SEP</span>
+                </div>
+
+                <div class="session-details">
+
+                    <div>
+                        <span>TIME</span>
+                        <strong>06:00 PM</strong>
+                    </div>
+
+                    <div>
+                        <span>COACH</span>
+                        <strong>ARJUN MEHRA</strong>
+                    </div>
+
+                    <div>
+                        <span>LOCATION</span>
+                        <strong>NEXUS FIT — STRENGTH FLOOR</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="session-actions">
+
+                <a href="schedule.html" class="dashboard-button">
+                    VIEW SCHEDULE →
+                </a>
+
+                <button
+                    type="button"
+                    class="dashboard-button secondary"
+                    id="cancelSession"
+                >
+                    CANCEL SESSION
+                </button>
+
+            </div>
+
+
+            <div
+                class="session-cancel-message"
+                id="cancelMessage"
+            >
+                SESSION CANCELLED FOR THIS DEMO.
+            </div>
+
+        </div>
+
+
+        <!-- WEEKLY PROGRESS -->
+
+        <div class="dashboard-card">
+
+            <div class="card-heading">
+
+                <div>
+                    <div class="eyebrow">
+                        WEEKLY ACTIVITY
+                    </div>
+
+                    <h2>
+                        TRAINING LOAD
+                    </h2>
+                </div>
+
+                <span class="card-value">
+                    80%
+                </span>
+
+            </div>
+
+
+            <div class="progress-bar">
+
+                <div
+                    class="progress-fill"
+                    style="width:80%;"
+                ></div>
+
+            </div>
+
+
+            <div class="week-days">
+
+                <div class="week-day completed">
+                    <span>MON</span>
+                    <strong>✓</strong>
+                </div>
+
+                <div class="week-day completed">
+                    <span>TUE</span>
+                    <strong>✓</strong>
+                </div>
+
+                <div class="week-day completed">
+                    <span>WED</span>
+                    <strong>✓</strong>
+                </div>
+
+                <div class="week-day completed">
+                    <span>THU</span>
+                    <strong>✓</strong>
+                </div>
+
+                <div class="week-day current">
+                    <span>FRI</span>
+                    <strong>•</strong>
+                </div>
+
+                <div class="week-day">
+                    <span>SAT</span>
+                    <strong>—</strong>
+                </div>
+
+            </div>
+
+
+            <p class="card-note">
+                4 sessions completed this week.
+            </p>
+
+        </div>
+
+
+        <!-- TRAINER -->
+
+        <div class="dashboard-card trainer-card">
+
+            <div class="eyebrow">
+                YOUR COACH
+            </div>
+
+            <div class="trainer-dashboard">
+
+                <div class="trainer-avatar">
+                    AM
+                </div>
+
+                <div>
+
+                    <h2>
+                        ARJUN MEHRA
+                    </h2>
+
+                    <p>
+                        Head Strength Coach
+                    </p>
+
+                    <span>
+                        9 YEARS EXPERIENCE
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="trainer-specialties">
+
+                <span>STRENGTH</span>
+                <span>POWER</span>
+                <span>PERFORMANCE</span>
+
+            </div>
+
+
+            <a href="trainers.html" class="text-link">
+                VIEW COACH PROFILE →
+            </a>
+
+        </div>
+
+
+        <!-- ACTIVITY -->
+
+        <div class="dashboard-card activity-card">
+
+            <div class="eyebrow">
+                RECENT ACTIVITY
+            </div>
+
+            <h2>
+                YOUR TRAINING LOG
+            </h2>
+
+
+            <div class="activity-list">
+
+                <div class="activity-item">
+
+                    <div class="activity-icon">
+                        ✓
+                    </div>
+
+                    <div>
+
+                        <strong>
+                            Strength Lab
+                        </strong>
+
+                        <span>
+                            29 SEP / 06:00 PM
+                        </span>
+
+                    </div>
+
+                    <b>
+                        COMPLETED
+                    </b>
+
+                </div>
+
+
+                <div class="activity-item">
+
+                    <div class="activity-icon">
+                        ✓
+                    </div>
+
+                    <div>
+
+                        <strong>
+                            HIIT Fusion
+                        </strong>
+
+                        <span>
+                            27 SEP / 07:30 PM
+                        </span>
+
+                    </div>
+
+                    <b>
+                        COMPLETED
+                    </b>
+
+                </div>
+
+
+                <div class="activity-item">
+
+                    <div class="activity-icon">
+                        ✓
+                    </div>
+
+                    <div>
+
+                        <strong>
+                            Strength Lab
+                        </strong>
+
+                        <span>
+                            25 SEP / 06:00 PM
+                        </span>
+
+                    </div>
+
+                    <b>
+                        COMPLETED
+                    </b>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- GOALS -->
+
+        <div class="dashboard-card goals-card">
+
+            <div class="card-heading">
+
+                <div>
+
+                    <div class="eyebrow">
+                        TRAINING FOCUS
+                    </div>
+
+                    <h2>
+                        YOUR GOALS
+                    </h2>
+
+                </div>
+
+                <button
+                    type="button"
+                    class="edit-goals"
+                    id="editGoals"
+                >
+                    EDIT
+                </button>
+
+            </div>
+
+
+            <div class="goal-list">
+
+                <div class="goal-item">
+
+                    <span class="goal-check checked">
+                        ✓
+                    </span>
+
+                    <span>
+                        Build strength
+                    </span>
+
+                </div>
+
+
+                <div class="goal-item">
+
+                    <span class="goal-check checked">
+                        ✓
+                    </span>
+
+                    <span>
+                        Improve consistency
+                    </span>
+
+                </div>
+
+
+                <div class="goal-item">
+
+                    <span class="goal-check">
+                        +
+                    </span>
+
+                    <span>
+                        Add another training goal
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div
+                class="goal-edit-message"
+                id="goalEditMessage"
+            >
+                Goal editing is available in this dashboard demo.
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <!-- QUICK ACTIONS -->
+
+    <section class="quick-actions">
+
+        <div class="eyebrow">
+            QUICK ACTIONS
+        </div>
+
+        <h2>
+            WHAT'S NEXT?
+        </h2>
+
+
+        <div class="quick-action-grid">
+
+            <a href="schedule.html" class="quick-action">
+
+                <span>01</span>
+
+                <strong>
+                    BOOK A SESSION
+                </strong>
+
+                <small>
+                    Find your next class
+                </small>
+
+                <b>→</b>
+
+            </a>
+
+
+            <a href="classes.html" class="quick-action">
+
+                <span>02</span>
+
+                <strong>
+                    EXPLORE CLASSES
+                </strong>
+
+                <small>
+                    Discover the training system
+                </small>
+
+                <b>→</b>
+
+            </a>
+
+
+            <a href="trainers.html" class="quick-action">
+
+                <span>03</span>
+
+                <strong>
+                    MEET THE COACHES
+                </strong>
+
+                <small>
+                    Explore the coaching team
+                </small>
+
+                <b>→</b>
+
+            </a>
+
+
+            <a href="contact.html" class="quick-action">
+
+                <span>04</span>
+
+                <strong>
+                    CONTACT NEXUS
+                </strong>
+
+                <small>
+                    Need help? We're here.
+                </small>
+
+                <b>→</b>
+
+            </a>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <div class="footer-logo">
+        NEXUS<span>FIT</span>
+    </div>
+
+    <p>
+        © 2026 NEXUS FIT — DELHI
+    </p>
+
+    <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="trial.html">Join</a>
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

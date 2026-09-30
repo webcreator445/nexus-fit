@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Member Login | NEXUS FIT</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+
+    <header class="navbar">
+
+        <a href="index.html" class="logo">
+            NEXUS<span>FIT</span>
+        </a>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="memberships.html">Memberships</a>
+            <a href="classes.html">Classes</a>
+            <a href="trainers.html">Trainers</a>
+            <a href="facilities.html">Facilities</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="transformations.html">Transformations</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+       <div class="nav-actions">
+    <a href="login.html" class="nav-login">MEMBER LOGIN</a>
+
+    <a href="trial.html" class="nav-button">
+        FREE TRIAL →
+    </a>
+</div>
+
+    </header>
+
+
+    <!-- LOGIN PAGE -->
+
+    <main class="login-page">
+
+        <div class="login-container">
+
+            <div class="login-label">
+                MEMBER AREA
+            </div>
+
+            <h1>
+                WELCOME<br>
+                <span>BACK.</span>
+            </h1>
+
+            <p class="login-intro">
+                Sign in to access your NEXUS FIT member dashboard,
+                sessions, schedule and membership information.
+            </p>
+
+
+            <form id="loginForm" class="login-form">
+
+                <div class="form-group">
+
+                    <label for="loginEmail">
+                        EMAIL ADDRESS
+                    </label>
+
+                    <input
+                        type="email"
+                        id="loginEmail"
+                        placeholder="you@example.com"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="loginPassword">
+                        PASSWORD
+                    </label>
+
+                    <input
+                        type="password"
+                        id="loginPassword"
+                        placeholder="Enter your password"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="login-options">
+
+                    <label class="remember-option">
+
+                        <input type="checkbox" id="rememberMe">
+
+                        <span>Remember me</span>
+
+                    </label>
+
+                    <button
+                        type="button"
+                        id="forgotPassword"
+                        class="forgot-button"
+                    >
+                        Forgot password?
+                    </button>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="login-submit"
+                >
+                    SIGN IN →
+                </button>
+
+
+                <div
+                    id="loginMessage"
+                    class="login-message"
+                ></div>
+
+            </form>
+
+
+            <div class="login-divider">
+                <span>OR</span>
+            </div>
+
+
+            <a
+                href="trial.html"
+                class="login-register"
+            >
+                NEW TO NEXUS FIT?
+                <strong>START YOUR FREE TRIAL →</strong>
+            </a>
+
+
+            <div class="login-bottom-links">
+
+    <a href="index.html" class="back-home">
+        ← BACK TO WEBSITE
+    </a>
+
+    <a href="dashboard.html" class="back-home">
+        VIEW MEMBER DASHBOARD →
+    </a>
+
+</div>
+
+        </div>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

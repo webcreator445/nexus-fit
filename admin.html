@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Admin Dashboard | NEXUS FIT</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <a href="index.html" class="logo">
+        NEXUS<span>FIT</span>
+    </a>
+
+    <nav>
+        <a href="index.html">Website</a>
+        <a href="dashboard.html">Member Area</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="classes.html">Classes</a>
+        <a href="trainers.html">Trainers</a>
+    </nav>
+
+    <div class="admin-nav-label">
+        ADMIN / STAFF
+    </div>
+
+</header>
+
+
+<main class="admin-page">
+
+
+    <!-- HEADER -->
+
+    <section class="admin-header">
+
+        <div>
+
+            <div class="eyebrow">
+                NEXUS FIT / ADMINISTRATION
+            </div>
+
+            <h1>
+                CONTROL<br>
+                <span>CENTER.</span>
+            </h1>
+
+            <p>
+                Manage members, sessions, coaches and daily
+                gym operations from one place.
+            </p>
+
+        </div>
+
+
+        <div class="admin-status">
+
+            <span class="status-dot"></span>
+
+            SYSTEM ONLINE
+
+            <small>
+                30 SEP 2026
+            </small>
+
+        </div>
+
+    </section>
+
+
+    <!-- OVERVIEW -->
+
+    <section class="admin-stats">
+
+        <div class="admin-stat">
+
+            <span>
+                ACTIVE MEMBERS
+            </span>
+
+            <strong>
+                12,482
+            </strong>
+
+            <small>
+                +8.4% this month
+            </small>
+
+        </div>
+
+
+        <div class="admin-stat">
+
+            <span>
+                TODAY'S SESSIONS
+            </span>
+
+            <strong>
+                24
+            </strong>
+
+            <small>
+                187 bookings
+            </small>
+
+        </div>
+
+
+        <div class="admin-stat">
+
+            <span>
+                ACTIVE COACHES
+            </span>
+
+            <strong>
+                40
+            </strong>
+
+            <small>
+                36 currently available
+            </small>
+
+        </div>
+
+
+        <div class="admin-stat">
+
+            <span>
+                MONTHLY REVENUE
+            </span>
+
+            <strong>
+                ₹31.4L
+            </strong>
+
+            <small>
+                Demo financial data
+            </small>
+
+        </div>
+
+    </section>
+
+
+    <!-- ADMIN GRID -->
+
+    <section class="admin-grid">
+
+
+        <!-- BOOKINGS -->
+
+        <div class="admin-card bookings-card">
+
+            <div class="admin-card-header">
+
+                <div>
+
+                    <div class="eyebrow">
+                        TODAY
+                    </div>
+
+                    <h2>
+                        UPCOMING BOOKINGS
+                    </h2>
+
+                </div>
+
+                <a href="schedule.html" class="admin-link">
+                    FULL SCHEDULE →
+                </a>
+
+            </div>
+
+
+            <div class="booking-table">
+
+                <div class="booking-row booking-head">
+
+                    <span>TIME</span>
+                    <span>SESSION</span>
+                    <span>COACH</span>
+                    <span>STATUS</span>
+
+                </div>
+
+
+                <div class="booking-row">
+
+                    <strong>06:00 AM</strong>
+
+                    <span>
+                        Strength Lab
+                    </span>
+
+                    <span>
+                        Arjun Mehra
+                    </span>
+
+                    <b class="booking-confirmed">
+                        CONFIRMED
+                    </b>
+
+                </div>
+
+
+                <div class="booking-row">
+
+                    <strong>07:30 AM</strong>
+
+                    <span>
+                        HIIT Fusion
+                    </span>
+
+                    <span>
+                        Riya Kapoor
+                    </span>
+
+                    <b class="booking-confirmed">
+                        CONFIRMED
+                    </b>
+
+                </div>
+
+
+                <div class="booking-row">
+
+                    <strong>06:00 PM</strong>
+
+                    <span>
+                        Functional Athlete
+                    </span>
+
+                    <span>
+                        Kabir Singh
+                    </span>
+
+                    <b class="booking-confirmed">
+                        CONFIRMED
+                    </b>
+
+                </div>
+
+
+                <div class="booking-row">
+
+                    <strong>07:30 PM</strong>
+
+                    <span>
+                        HIIT Fusion
+                    </span>
+
+                    <span>
+                        Riya Kapoor
+                    </span>
+
+                    <b class="booking-pending">
+                        3 WAITLIST
+                    </b>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- QUICK ACTIONS -->
+
+        <div class="admin-card">
+
+            <div class="eyebrow">
+                OPERATIONS
+            </div>
+
+            <h2>
+                QUICK ACTIONS
+            </h2>
+
+
+            <div class="admin-actions">
+
+                <button
+                    class="admin-action"
+                    data-action="member"
+                >
+                    <span>01</span>
+                    <strong>ADD MEMBER</strong>
+                    <b>+</b>
+                </button>
+
+
+                <button
+                    class="admin-action"
+                    data-action="class"
+                >
+                    <span>02</span>
+                    <strong>CREATE CLASS</strong>
+                    <b>+</b>
+                </button>
+
+
+                <button
+                    class="admin-action"
+                    data-action="trainer"
+                >
+                    <span>03</span>
+                    <strong>ADD COACH</strong>
+                    <b>+</b>
+                </button>
+
+
+                <button
+                    class="admin-action"
+                    data-action="announcement"
+                >
+                    <span>04</span>
+                    <strong>ANNOUNCEMENT</strong>
+                    <b>+</b>
+                </button>
+
+            </div>
+
+
+            <div
+                class="admin-action-message"
+                id="adminActionMessage"
+            ></div>
+
+        </div>
+
+
+        <!-- MEMBERS -->
+
+        <div class="admin-card members-card">
+
+            <div class="admin-card-header">
+
+                <div>
+
+                    <div class="eyebrow">
+                        MEMBERS
+                    </div>
+
+                    <h2>
+                        RECENT MEMBERS
+                    </h2>
+
+                </div>
+
+                <button
+                    class="admin-link-button"
+                    id="viewMembers"
+                >
+                    VIEW ALL →
+                </button>
+
+            </div>
+
+
+            <div class="member-table">
+
+                <div class="member-row member-head">
+
+                    <span>MEMBER</span>
+                    <span>PLAN</span>
+                    <span>JOINED</span>
+                    <span>STATUS</span>
+
+                </div>
+
+
+                <div class="member-row">
+
+                    <strong>
+                        Aarav Sharma
+                    </strong>
+
+                    <span>
+                        Performance
+                    </span>
+
+                    <span>
+                        30 Sep
+                    </span>
+
+                    <b class="active-status">
+                        ACTIVE
+                    </b>
+
+                </div>
+
+
+                <div class="member-row">
+
+                    <strong>
+                        Meera Kapoor
+                    </strong>
+
+                    <span>
+                        Elite
+                    </span>
+
+                    <span>
+                        29 Sep
+                    </span>
+
+                    <b class="active-status">
+                        ACTIVE
+                    </b>
+
+                </div>
+
+
+                <div class="member-row">
+
+                    <strong>
+                        Rahul Verma
+                    </strong>
+
+                    <span>
+                        Starter
+                    </span>
+
+                    <span>
+                        28 Sep
+                    </span>
+
+                    <b class="active-status">
+                        ACTIVE
+                    </b>
+
+                </div>
+
+
+                <div class="member-row">
+
+                    <strong>
+                        Ananya Singh
+                    </strong>
+
+                    <span>
+                        Performance
+                    </span>
+
+                    <span>
+                        27 Sep
+                    </span>
+
+                    <b class="trial-status">
+                        TRIAL
+                    </b>
+
+                </div>
+
+            </div>
+
+
+            <div
+                class="member-message"
+                id="memberMessage"
+            >
+                Showing demo member records. A real database is required
+                for live member management.
+            </div>
+
+        </div>
+
+
+        <!-- CAPACITY -->
+
+        <div class="admin-card">
+
+            <div class="eyebrow">
+                LIVE CAPACITY
+            </div>
+
+            <h2>
+                TRAINING FLOOR
+            </h2>
+
+
+            <div class="capacity-number">
+                68<span>%</span>
+            </div>
+
+
+            <div class="capacity-bar">
+
+                <div
+                    class="capacity-fill"
+                    style="width:68%;"
+                ></div>
+
+            </div>
+
+
+            <div class="capacity-info">
+
+                <span>
+                    CURRENT
+                    <strong>136</strong>
+                </span>
+
+                <span>
+                    CAPACITY
+                    <strong>200</strong>
+                </span>
+
+            </div>
+
+
+            <p class="capacity-note">
+                Current capacity is sample data for this
+                front-end demonstration.
+            </p>
+
+        </div>
+
+
+        <!-- COACHES -->
+
+        <div class="admin-card coaches-card">
+
+            <div class="admin-card-header">
+
+                <div>
+
+                    <div class="eyebrow">
+                        COACHING TEAM
+                    </div>
+
+                    <h2>
+                        TODAY'S COACHES
+                    </h2>
+
+                </div>
+
+                <a href="trainers.html" class="admin-link">
+                    VIEW TEAM →
+                </a>
+
+            </div>
+
+
+            <div class="coach-list">
+
+                <div class="coach-row">
+
+                    <div class="coach-avatar">
+                        AM
+                    </div>
+
+                    <div>
+                        <strong>Arjun Mehra</strong>
+                        <span>Strength Coach</span>
+                    </div>
+
+                    <b class="coach-online">
+                        ONLINE
+                    </b>
+
+                </div>
+
+
+                <div class="coach-row">
+
+                    <div class="coach-avatar">
+                        RK
+                    </div>
+
+                    <div>
+                        <strong>Riya Kapoor</strong>
+                        <span>Performance Coach</span>
+                    </div>
+
+                    <b class="coach-online">
+                        ONLINE
+                    </b>
+
+                </div>
+
+
+                <div class="coach-row">
+
+                    <div class="coach-avatar">
+                        KS
+                    </div>
+
+                    <div>
+                        <strong>Kabir Singh</strong>
+                        <span>Athletic Coach</span>
+                    </div>
+
+                    <b class="coach-offline">
+                        OFFLINE
+                    </b>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- SYSTEM -->
+
+        <div class="admin-card system-card">
+
+            <div class="eyebrow">
+                SYSTEM
+            </div>
+
+            <h2>
+                PLATFORM STATUS
+            </h2>
+
+
+            <div class="system-list">
+
+                <div>
+                    <span>WEBSITE</span>
+                    <b>ONLINE</b>
+                </div>
+
+                <div>
+                    <span>BOOKING SYSTEM</span>
+                    <b>DEMO MODE</b>
+                </div>
+
+                <div>
+                    <span>DATABASE</span>
+                    <b>NOT CONNECTED</b>
+                </div>
+
+                <div>
+                    <span>PAYMENTS</span>
+                    <b>NOT CONNECTED</b>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ADMIN FOOTER AREA -->
+
+    <section class="admin-bottom">
+
+        <div>
+
+            <div class="eyebrow">
+                NEXUS FIT / STAFF
+            </div>
+
+            <h2>
+                RUN THE<br>
+                <span>NETWORK.</span>
+            </h2>
+
+        </div>
+
+
+        <div class="admin-bottom-actions">
+
+            <a href="schedule.html">
+                MANAGE SCHEDULE →
+            </a>
+
+            <a href="contact.html">
+                CONTACT SUPPORT →
+            </a>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <div class="footer-logo">
+        NEXUS<span>FIT</span>
+    </div>
+
+    <p>
+        © 2026 NEXUS FIT — ADMIN DEMO
+    </p>
+
+    <div class="footer-links">
+        <a href="index.html">Website</a>
+        <a href="dashboard.html">Member Area</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
